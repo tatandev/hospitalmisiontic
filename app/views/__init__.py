@@ -1,0 +1,5 @@
+from .viewscrearauxiliar import ViewsAuxiliarView
+from .viewscrearpaciente import ViewsCrearPaciente
+from .viewscrearmedico import ViewsCrearMedico
+from .viewscrearenfermero import ViewsCrearEnfermero
+from .viewscrearfamiliar import ViewsCrearFamiliar

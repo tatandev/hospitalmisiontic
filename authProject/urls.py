@@ -24,6 +24,8 @@ urlpatterns = [
     path('registrarMedico/',views.ViewsCrearMedico.as_view()),
     path('registrarEnfermero/',views.ViewsCrearEnfermero.as_view()),
     path('registrarFamiliar/',views.ViewsCrearFamiliar.as_view()),
+    path('consultarPaciente/<int:pk>',views.ViewsconsultarPaciente.as_view()),
+    path('consultarFamiliar/<int:pk>',views.ViewsconsultarFamiliar.as_view()),
 
     
 

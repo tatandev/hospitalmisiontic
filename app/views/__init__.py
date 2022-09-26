@@ -3,3 +3,5 @@ from .viewscrearpaciente import ViewsCrearPaciente
 from .viewscrearmedico import ViewsCrearMedico
 from .viewscrearenfermero import ViewsCrearEnfermero
 from .viewscrearfamiliar import ViewsCrearFamiliar
+from .viewsconsultarpaciente import ViewsconsultarPaciente
+from .viewsconsultarfamiliar import ViewsconsultarFamiliar

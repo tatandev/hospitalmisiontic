@@ -10,7 +10,7 @@ from app.serializers.pacienteSerializer import PacienteSerializer
 
 class ViewsconsultarPaciente(views.APIView):
 
-    def get(self, request, pk, format=None):
-                paciente = Paciente.objects.get(pk=pk)
-                serializer = pacienteSerializer(paciente)  
-                return Response(serializer.data)
+    def get(self, request, *args, **kwargs):
+                paciente = Paciente.objects.get(id=kwargs['pk'])
+                serializer = PacienteSerializer(paciente)  
+                return Response(serializer.data,status=status.HTTP_200_OK)
